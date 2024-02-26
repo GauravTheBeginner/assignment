@@ -11,9 +11,9 @@ function Navbar() {
                     <Image src={icon} width={18} height={18} alt="search" className="absolute   left-3 top-1/2 transform -translate-y-1/2  h-5 w-4" />
                 </div>
                 <div className=" flex  " >
-                    <Link className="mr-9 text-white" href={"/"}>Categories</Link>
-                    <Link className="mr-9 text-white" href={"/"}>Website Builders</Link>
-                    <Link className="mr-9 text-white" href={"/"}>Today&lsquo;s deals</Link>
+                    <Link className="mr-9 text-[13px] text-white" href={"/"}>Categories</Link>
+                    <Link className="mr-9 text-[13px] text-white" href={"/"}>Website Builders</Link>
+                    <Link className="mr-9 text-[13px] text-white" href={"/"}>Today&lsquo;s deals</Link>
                 </div>
             </div>
         </div>
