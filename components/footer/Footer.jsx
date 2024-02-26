@@ -27,7 +27,7 @@ function Footer() {
         </div>
         <div className="  flex  flex-col justify-center ">
           <div className=" flex gap-2">
-            <p className="text-[#D1D6DA]">Top Relevant</p>
+            <p className="text-[#D1D6DA]">United States</p>
             <Image className=" cursor-pointer" src={down} alt="left" />
           </div>
         </div>
