@@ -10,17 +10,17 @@ function Hero() {
                 <p className=" text-[3rem]   font-[400]">Best Website builders in the US</p>
                 <div className=" flex justify-between border- py-2 border-[#E1E4E6] border-2  border-l-0 border-r-0">
                     <div className="flex gap-5 ">
-                        <div className=" flex gap-2">
+                        <div className=" flex items-center gap-2">
                             <Image src={left} alt="left" />
-                            <p className="text-[black] ">Last Updated - February 22, 2020</p>
+                            <p className="text-[black]  text-[14px] ">Last Updated - February 22, 2020</p>
                         </div>
-                        <div className=" flex gap-2">
+                        <div className=" flex items-center gap-2">
                             <Image src={explain} alt="left" />
-                            <p className="text-[black]">Advertising Disclosure</p>
+                            <p className="text-[black] text-[14px]">Advertising Disclosure</p>
                         </div>
                     </div>
-                    <div className=" flex gap-2">
-                        <p className="text-[black]">Top Relevant</p>
+                    <div className=" flex items-center gap-2">
+                        <p className="text-[black] text-[14px]">Top Relevant</p>
                         <Image className=" cursor-pointer" src={down} alt="left" />
                     </div>
                 </div>
@@ -36,7 +36,7 @@ function Hero() {
                      <div className="flex" aria-label="Breadcrumb">
                         <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                             <li className="inline-flex items-center">
-                                <a href="#" className="inline-flex items-center text-[15px] hover:text-black hover:cursor-pointer font-[400] text-[#727D87]  ">
+                                <a href="#" className="inline-flex items-center text-[14px] hover:text-black hover:cursor-pointer font-[400] text-[#727D87]  ">
                                     <svg className="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                         <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
                                     </svg>
@@ -48,7 +48,7 @@ function Hero() {
                                     <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                                     </svg>
-                                    <a href="#" className="ms-1 text-[15px] hover:text-black hover:cursor-pointer font-[400] text-[#727D87]  md:ms-2 ">Hosting for all</a>
+                                    <a href="#" className="ms-1 text-[14px] hover:text-black hover:cursor-pointer font-[400] text-[#727D87]  md:ms-2 ">Hosting for all</a>
                                 </div>
                             </li>
                             <li aria-current="page">
@@ -56,7 +56,7 @@ function Hero() {
                                     <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                                     </svg>
-                                    <span className="ms-1 text-[15px] hover:text-black hover:cursor-pointer font-[400] text-[#727D87] md:ms-2 ">Hosting</span>
+                                    <span className="ms-1 text-[14px] hover:text-black hover:cursor-pointer font-[400] text-[#727D87] md:ms-2 ">Hosting</span>
                                 </div>
                             </li>
                             <li aria-current="page">
@@ -64,7 +64,7 @@ function Hero() {
                                     <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                                     </svg>
-                                    <span className="ms-1 text-[15px] hover:text-black hover:cursor-pointer font-[400] text-[#727D87] md:ms-2 ">Hosting6</span>
+                                    <span className="ms-1 text-[14px] hover:text-black hover:cursor-pointer font-[400] text-[#727D87] md:ms-2 ">Hosting6</span>
                                 </div>
                             </li>
                             <li aria-current="page">
@@ -72,7 +72,7 @@ function Hero() {
                                     <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                                     </svg>
-                                    <span className="ms-1 text-[15px] hover:text-black hover:cursor-pointer font-[400] text-[#727D87] md:ms-2 ">Hosting5</span>
+                                    <span className="ms-1 text-[14px] hover:text-black hover:cursor-pointer font-[400] text-[#727D87] md:ms-2 ">Hosting5</span>
                                 </div>
                             </li>
                         </ol>
