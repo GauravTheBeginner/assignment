@@ -1,5 +1,6 @@
+import Image from "next/image"
 import Link from "next/link"
-
+import down from "@/public/images/hero/down.svg"
 
 function Footer() {
   return (
@@ -15,7 +16,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex mr-[8rem] flex-col gap-2">
-          <p  className="text-[16px] font-[400] text-white">Contact</p>
+          <p className="text-[16px] font-[400] text-white">Contact</p>
           <div className=" flex flex-col gap-2">
             <Link className="text-[13px] font-[400] text-[#B6BDC4]" href={""}> Contact</Link>
             <Link className="text-[13px] font-[400] text-[#B6BDC4]" href={""}>Privacy Policy</Link>
@@ -24,11 +25,11 @@ function Footer() {
             <Link className="text-[13px] font-[400] text-[#B6BDC4]" href={""}> About</Link>
           </div>
         </div>
-        <div className=" flex justify-center">
-          <select  className=" outline-none  bg-[#212731] text-white" name="" id="">
-            <option   className=" outline-none  bg-[#212731] text-white" value="United States">United States</option>
-            <option className=" outline-none  bg-[#212731] text-white" value="India">India</option>
-          </select>
+        <div className="  flex  flex-col justify-center ">
+          <div className=" flex gap-2">
+            <p className="text-[#D1D6DA]">Top Relevant</p>
+            <Image className=" cursor-pointer" src={down} alt="left" />
+          </div>
         </div>
       </div>
     </div>
