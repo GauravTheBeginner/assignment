@@ -7,7 +7,7 @@ function Hero() {
     return (
         <div className="flex justify-center py-5 px-16 ">
             <div className="w-[100%] flex flex-col gap-4 max-w-[70rem]">
-                <p className=" text-[2rem]   font-[400]">Best Website builders in the US</p>
+                <p className=" text-[3rem]   font-[400]">Best Website builders in the US</p>
                 <div className=" flex justify-between border- py-2 border-[#E1E4E6] border-2  border-l-0 border-r-0">
                     <div className="flex gap-5 ">
                         <div className=" flex gap-2">
