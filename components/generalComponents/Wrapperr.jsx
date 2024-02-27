@@ -50,11 +50,11 @@ function Wrapper({ award, img, title, text, value, stars, info, number, name }) 
               </div>
               <div className='flex  gap-2 items-center'>
                 <Image src={tick} alt='tick'/>
-                <p className='text-[15px] text-[#4B5665]'>Documentation</p>
+                <p className='text-[15px] text-[#4B5665]'>Easy Use</p>
               </div>
               <div className='flex  gap-2 items-center'>
                 <Image src={tick} alt='tick'/>
-                <p className='text-[15px] text-[#4B5665]'>Documentation</p>
+                <p className='text-[15px] text-[#4B5665]'>Out of box</p>
               </div>
             </div>
           </div>
