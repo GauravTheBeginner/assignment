@@ -8,7 +8,7 @@ import sign from "@/public/images/card/sign.svg"
 function CardWrapper({ award, img, title, text, content, value, stars, info, number, name }) {
   return (
 
-    <div className=' shadow-md gap-0 md:gap-[3rem] lg:gap-[3rem] xl:gap-[3rem] border-2 rounded-lg  flex-col md:flex-row lg:flex-row xl:flex-row      px-6 flex'>
+    <div className=' shadow-md gap-0 md:gap-[3rem] lg:gap-[3rem] xl:gap-[3rem]  rounded-lg  flex-col md:flex-row lg:flex-row xl:flex-row      px-6 flex'>
       <div className=' flex  items-center gap-2    justify-between     flex-col '>
         {award && (
           <div className=' md:ml-[-5.5rem] xl:ml-[-5.5rem] lg:ml-[-5.5rem] 2xl:ml-[-5.5rem] w-full  flex justify-start  md:-mt-4  xl:-mt-4  2xl:-mt-4  mt-2  '>
