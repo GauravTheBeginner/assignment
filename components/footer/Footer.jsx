@@ -4,7 +4,7 @@ import down from "@/public/images/hero/down.svg"
 
 function Footer() {
   return (
-    <div className=" flex justify-center pt-9 bg-[#212731]  pb-20 px-16">
+    <div className=" flex justify-center pt-9 bg-[#212731]  pb-20 md:px-16 xl:px-16 lg:px-16 2xl:px-16  px-6 py-5">
       <div className="flex   w-[100%] max-w-[70rem]">
         <div className="flex mr-[8rem] flex-col gap-2">
           <p className="text-[16px] font-[400] text-white" >Categories</p>
@@ -25,7 +25,7 @@ function Footer() {
             <Link className="text-[13px] font-[400] text-[#B6BDC4]" href={""}> About</Link>
           </div>
         </div>
-        <div className="  flex  flex-col justify-center ">
+        <div className=" hidden md:flex xl:flex lg:flex 2xl:flex   flex-col justify-center ">
           <div className=" flex gap-2">
             <p className="text-[#D1D6DA] text-[13px]">United States</p>
             <Image className=" cursor-pointer" src={down} alt="left" />
